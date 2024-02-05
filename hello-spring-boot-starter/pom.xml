@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.lun.hello.spring.boot</groupId>
+    <artifactId>hello-spring-boot</artifactId>
+    <version>0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>hello-spring-boot-starter</artifactId>
+  <name>hello-spring-boot-starter</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.lun.hello.spring.boot</groupId>
+      <artifactId>hello-spring-boot-autoconfigure</artifactId>
+      <version>0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+  </dependencies>
+</project>
